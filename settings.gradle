@@ -1,0 +1,4 @@
+include ':appCoryat'
+
+include ':libAndroid'
+project(':libAndroid').projectDir = new File( lib_zerobandwidth_android )
